@@ -13,7 +13,9 @@ body {
   color: white;
   font-weight: bold;
   margin: 0;
-  padding: 0.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #cabecera #tagline {
@@ -36,4 +38,9 @@ body {
 
 #post {
   padding: 1em;
+}
+
+.image {
+  width: 35px;
+  padding: 0 15px 0 15px;
 }
